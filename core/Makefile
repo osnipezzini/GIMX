@@ -43,8 +43,9 @@ LDLIBS += `xml2-config --libs`
 
 ifneq ($(PDCURSES),1)
 ifneq ($(OS),Windows_NT)
-CPPFLAGS +=  `ncursesw5-config --cflags`
-LDLIBS += `ncursesw5-config --libs`
+NCURSES_CONFIG ?= $(shell command -v ncursesw6-config 2>/dev/null || command -v ncursesw5-config 2>/dev/null)
+CPPFLAGS += $(shell $(NCURSES_CONFIG) --cflags)
+LDLIBS += $(shell $(NCURSES_CONFIG) --libs)
 else
 CPPFLAGS +=  `ncursesw6-config --cflags`
 LDLIBS += `ncursesw6-config --libs`

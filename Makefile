@@ -19,6 +19,7 @@ build-core: build-shared
 build-config: build-shared
 build-launcher: build-shared
 build-fpsconfig: build-shared
+build-loader: build-shared
 
 clean: $(CLEANDIRS)
 $(CLEANDIRS): 
