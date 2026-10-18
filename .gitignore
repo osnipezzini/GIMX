@@ -57,3 +57,6 @@ fpsconfig/gimx-fpsconfig
 core/gimx
 core/test/haptic/ff_lg_test
 loader/gimx-loader
+
+# Arch Linux package build workspace
+/build/arch/
