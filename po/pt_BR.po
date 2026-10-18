@@ -1117,7 +1117,7 @@ msgstr "Selecione o arquivo"
 #: ../config/gimx-config.cpp:1365 ../config/gimx-config.cpp:2831
 #: ../fpsconfig/gimx-fpsconfig.cpp:1084 ../fpsconfig/gimx-fpsconfig.cpp:2055
 msgid "XML files (*.xml)|*.xml"
-msgstr "Arquivos XML (* .xml) | * .xml"
+msgstr "Arquivos XML (*.xml)|*.xml"
 
 #: ../config/gimx-config.cpp:1470 ../fpsconfig/gimx-fpsconfig.cpp:499
 msgid "It's not recommended to run as root user. Continue?"
