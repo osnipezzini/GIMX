@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "source_repository": "https://github.com/matlo/GIMX-firmwares",
+  "snapshots": [
+    {
+      "label": "legacy-v5.8",
+      "commit": "fd02ed3e3c4a620a4c3a49deb63a793ead454195",
+      "path": "EMUG27PS3/Descriptors.c",
+      "source_url": "https://github.com/matlo/GIMX-firmwares/blob/fd02ed3e3c4a620a4c3a49deb63a793ead454195/EMUG27PS3/Descriptors.c",
+      "source_sha256_utf8_lf": "b0c7dd4475d87e944b81d8fc543f7c9de2d96a26c4ab8231389ecca626334862",
+      "report_descriptor_length": 108,
+      "report_descriptor_sha256": "53eec836b9f0a834a8254cfc5e702b2c8c33f298f907b0f0d027ca4a4d56e685",
+      "report_descriptor_hex": "05010904a10114250734463b016514093975049501814264250145010509190129137501951381020600ff09019503810226ff3f46ff3f750e950105010930810226ff0046ff007508950309320935093181020600ff09049503810295070600ff0902910295900903b102c0",
+      "report_bits": {
+        "input": 88,
+        "output": 56,
+        "feature": 1152
+      },
+      "fields": [
+        {
+          "kind": "input",
+          "bit_offset": 0,
+          "report_size_bits": 4,
+          "report_count": 1,
+          "usage_page": 1,
+          "usages": [
+            57
+          ],
+          "usage_min": null,
+          "usage_max": null,
+          "flags": 66
+        },
+        {
+          "kind": "input",
+          "bit_offset": 4,
+          "report_size_bits": 1,
+          "report_count": 19,
+          "usage_page": 9,
+          "usages": [],
+          "usage_min": 1,
+          "usage_max": 19,
+          "flags": 2
+        },
+        {
+          "kind": "input",
+          "bit_offset": 23,
+          "report_size_bits": 1,
+          "report_count": 3,
+          "usage_page": 65280,
+          "usages": [
+            1
+          ],
+          "usage_min": null,
+          "usage_max": null,
+          "flags": 2
+        },
+        {
+          "kind": "input",
+          "bit_offset": 26,
+          "report_size_bits": 14,
+          "report_count": 1,
+          "usage_page": 1,
+          "usages": [
+            48
+          ],
+          "usage_min": null,
+          "usage_max": null,
+          "flags": 2
+        },
+        {
+          "kind": "input",
+          "bit_offset": 40,
+          "report_size_bits": 8,
+          "report_count": 3,
+          "usage_page": 1,
+          "usages": [
+            50,
+            53,
+            49
+          ],
+          "usage_min": null,
+          "usage_max": null,
+          "flags": 2
+        },
+        {
+          "kind": "input",
+          "bit_offset": 64,
+          "report_size_bits": 8,
+          "report_count": 3,
+          "usage_page": 65280,
+          "usages": [
+            4
+          ],
+          "usage_min": null,
+          "usage_max": null,
+          "flags": 2
+        },
+        {
+          "kind": "output",
+          "bit_offset": 0,
+          "report_size_bits": 8,
+          "report_count": 7,
+          "usage_page": 65280,
+          "usages": [
+            2
+          ],
+          "usage_min": null,
+          "usage_max": null,
+          "flags": 2
+        },
+        {
+          "kind": "feature",
+          "bit_offset": 0,
+          "report_size_bits": 8,
+          "report_count": 144,
+          "usage_page": 65280,
+          "usages": [
+            3
+          ],
+          "usage_min": null,
+          "usage_max": null,
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "label": "current-source-8.0",
+      "commit": "ab2215ebad5d50fd25b6b40ac74254f1f4c0bda5",
+      "path": "EMUG27/Descriptors.c",
+      "source_url": "https://github.com/matlo/GIMX-firmwares/blob/ab2215ebad5d50fd25b6b40ac74254f1f4c0bda5/EMUG27/Descriptors.c",
+      "source_sha256_utf8_lf": "30dd846e3b8a96b8165dcfe16eb4905e4a5534bef0eb0d3b49162dbe6923cddc",
+      "report_descriptor_length": 133,
+      "report_descriptor_sha256": "b0332edfa0d0942fdcc48406bc47d56df14377eab45cc977f1cf9da3b363539e",
+      "report_descriptor_hex": "05010904a101150025073500463b016514093975049501814265002501450105091901291675019516810226ff3f46ff3f750e950105010930810226ff0046ff007508950309320935093181020600ff09019502810295017501250145010509091781020600ff09019507810226ff0046ff000600ff090295077508910295900903b102c0",
+      "report_bits": {
+        "input": 88,
+        "output": 56,
+        "feature": 1152
+      },
+      "fields": [
+        {
+          "kind": "input",
+          "bit_offset": 0,
+          "report_size_bits": 4,
+          "report_count": 1,
+          "usage_page": 1,
+          "usages": [
+            57
+          ],
+          "usage_min": null,
+          "usage_max": null,
+          "flags": 66
+        },
+        {
+          "kind": "input",
+          "bit_offset": 4,
+          "report_size_bits": 1,
+          "report_count": 22,
+          "usage_page": 9,
+          "usages": [],
+          "usage_min": 1,
+          "usage_max": 22,
+          "flags": 2
+        },
+        {
+          "kind": "input",
+          "bit_offset": 26,
+          "report_size_bits": 14,
+          "report_count": 1,
+          "usage_page": 1,
+          "usages": [
+            48
+          ],
+          "usage_min": null,
+          "usage_max": null,
+          "flags": 2
+        },
+        {
+          "kind": "input",
+          "bit_offset": 40,
+          "report_size_bits": 8,
+          "report_count": 3,
+          "usage_page": 1,
+          "usages": [
+            50,
+            53,
+            49
+          ],
+          "usage_min": null,
+          "usage_max": null,
+          "flags": 2
+        },
+        {
+          "kind": "input",
+          "bit_offset": 64,
+          "report_size_bits": 8,
+          "report_count": 2,
+          "usage_page": 65280,
+          "usages": [
+            1
+          ],
+          "usage_min": null,
+          "usage_max": null,
+          "flags": 2
+        },
+        {
+          "kind": "input",
+          "bit_offset": 80,
+          "report_size_bits": 1,
+          "report_count": 1,
+          "usage_page": 9,
+          "usages": [
+            23
+          ],
+          "usage_min": null,
+          "usage_max": null,
+          "flags": 2
+        },
+        {
+          "kind": "input",
+          "bit_offset": 81,
+          "report_size_bits": 1,
+          "report_count": 7,
+          "usage_page": 65280,
+          "usages": [
+            1
+          ],
+          "usage_min": null,
+          "usage_max": null,
+          "flags": 2
+        },
+        {
+          "kind": "output",
+          "bit_offset": 0,
+          "report_size_bits": 8,
+          "report_count": 7,
+          "usage_page": 65280,
+          "usages": [
+            2
+          ],
+          "usage_min": null,
+          "usage_max": null,
+          "flags": 2
+        },
+        {
+          "kind": "feature",
+          "bit_offset": 0,
+          "report_size_bits": 8,
+          "report_count": 144,
+          "usage_page": 65280,
+          "usages": [
+            3
+          ],
+          "usage_min": null,
+          "usage_max": null,
+          "flags": 2
+        }
+      ]
+    }
+  ]
+}

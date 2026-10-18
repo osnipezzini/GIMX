@@ -11,3 +11,6 @@ Links:
 * [Issue tracker](https://gimx.fr/buglist)  
 * Licence: [GPLv3](https://www.gnu.org/copyleft/gpl.html)  
 * [Donations](https://blog.gimx.fr/give/gimx-donations-current/)
+
+Development planning:
+* [Virtual EMUG27 adapter study and implementation plan (Portuguese)](docs/adaptador-virtual/README.md)
